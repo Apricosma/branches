@@ -19,6 +19,11 @@
         git switch [branch we want to merge into] -> usually is main
         git merge [that branch]
 
-Adding some random crap to test
-
-[random code that breaks the entire code system]
+    Working on GitHub
+        1. Create a new branch locally
+        2. Get your new feature done
+        3. Add, commit, and push to the new branch on GitHub
+        4. Do a pull request (check for conflicts)
+            4.1 if you have conflicts, you need to fix them and commit again,
+            push to the branch again, and do another pull request
+        5. (Senior/team leader) will merge your branch
