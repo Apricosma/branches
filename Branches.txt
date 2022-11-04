@@ -1,0 +1,24 @@
+
+    Create a new branch
+
+    New ways
+
+        1. git branch [branch-name]
+        2. git switch [my-new-branch]
+
+
+    Old way
+
+        1. git checkout -b [branch-name]
+        2. git checkout main
+
+    Delete (after you merge it)
+        git branch -D [branch-name]
+
+    Merging a branch 
+        git switch [branch we want to merge into] -> usually is main
+        git merge [that branch]
+
+Adding some random crap to test
+
+[random code that breaks the entire code system]
